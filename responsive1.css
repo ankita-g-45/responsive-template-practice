@@ -1,0 +1,620 @@
+/* *
+{
+    border: 1px solid brown;    
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+  width: 100%;
+
+}
+header
+{
+ 
+    color:#faa307;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+header ul{
+    display: none;
+}
+header i{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.herosection
+{
+    padding: 190px 10px;
+    /* background: linear-gradient(to top,rgba(185, 98, 98, 0.5),rgba(19, 0, 0, 0.3)); */
+    background-image: url(./mac.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: aliceblue;
+    padding-left: 100px;
+}
+.logo
+{
+   margin-top: -20PX;
+}
+.middle
+{
+    text-align: center;
+}
+.logo4
+{
+    text-align: center;
+}
+
+.design
+{
+text-align: center;
+    background-color: rgb(208, 203, 203);
+}
+.team
+{
+    text-align: center  ;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards div{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px grey;
+
+}
+.cards p
+{
+    margin: 8px 0;
+}
+.cards div img{
+    width: 100%;
+}
+.number
+{
+    display: flex;
+    background-color: lightslategray;
+    overflow: hidden;
+    
+}
+.lastimg
+{
+   margin-left: 1px;
+}
+
+.image3{
+      
+    height: 1300px;
+
+     background-color:grey;
+    
+ }
+
+
+ .image1
+ {
+     margin-top: 20px;
+     color: white;
+     background-color:black;
+     width: 300px;
+     text-align: center;
+     margin-left: 10px;
+     height: 300px;
+   
+ }
+ .line
+ {
+    background-color: whitesmoke; 
+    height: 220px;
+   
+    color: #0d0c0c;
+    margin-top: 40px;
+  }
+  .bottom
+  {
+     height: 80px;
+     background-color:gainsboro;
+  }
+  .b1
+  {
+    margin-top: 25px;
+     color: aliceblue;
+     background-color: #0d0c0c;
+     width: 70px;
+     height: 30px;
+  }
+ 
+
+  .image2
+ {
+     margin-top: 90px;
+     color: white;
+     background-color: orangered;
+     width: 300px;
+     text-align: center;
+     margin-left: 10px;
+     height: 300px;
+   
+ }
+ .line2
+ {
+    background-color: whitesmoke; 
+    height: 220px;
+   
+    color: #0d0c0c;
+    margin-top: 40px;
+  }
+  .bottom2
+  {
+     height: 100px;
+     background-color:gainsboro;
+  }
+  .b2
+  {
+    margin-top: 25px;
+     color: aliceblue;
+     background-color: #0d0c0c;
+     width: 70px;
+     height: 30px;
+  }
+
+  .a3
+  {
+
+      margin-top: 100px;
+      color: white;
+      background-color:black;
+      width: 300px;
+      text-align: center;
+      margin-left: 10px;
+      height: 300px;
+  }       
+  
+  .line3
+  {
+     background-color: whitesmoke; 
+     height: 220px;
+    
+     color: #0d0c0c;
+     margin-top: 40px;
+   }
+   .bottom3
+   {
+      height: 80px;
+      background-color:gainsboro;
+   }
+   .b3
+   {
+     margin-top: 25px;
+      color: aliceblue;
+      background-color: #0d0c0c;
+      width: 70px;
+      height: 30px;
+   }
+footer{
+    text-align: center;
+
+    background-color: black;
+    color: azure;
+}
+@media only screen and (min-width:768px)
+{
+    header .fa-bars
+    {
+        display: none;
+    }
+    header ul {
+        display: flex;
+        list-style: none;
+
+    }
+    header ul li{
+        text-decoration: none;
+        color: #0d0c0c;
+        margin: 30px;
+
+    }
+    .logo4
+    {
+        display: flex;
+    }
+    .design
+    {padding-top: 100px;
+        margin-left: -300px;
+    }
+    .design1
+    {
+        margin-top: -370px;
+        margin-left: 450px;
+    }
+    .cards div
+    {
+        width: 47%;
+    } 
+    .number
+    {
+        padding: 70px;
+        padding-left: 100px;
+    }
+    .image8
+    {
+        padding: 20px;
+        text-align: center;
+    }
+    .first4 
+    {
+        display: flex;
+        
+      
+    }
+    .first4 div img
+    {
+       width: 100%;
+      padding-left: 5px;
+      height: 100%;
+      
+    }
+    .second4
+    {
+        margin-top: 10px;
+        display: flex;
+        
+    }
+    .second4 div img
+    {
+
+       width: 100%;
+      padding-left: 5px;
+      height: 100%;
+      
+    }
+    .skill
+    {
+        padding: 40px;
+        background-color: f1f1f1;
+        height: 200px;
+    }
+    .col1{
+        width: 50%;
+        float: left;
+    }
+    .col2{
+        width: 50%;
+        float: right;
+    }
+
+   .container1
+   {
+    width: 100%;
+    background-color:#9e9e9e;
+   }
+   .Photography
+   {
+    width: 90%;
+    background-color:#616161;
+   }
+
+   .container2
+   {
+    width: 100%;
+    background-color: #9e9e9e;
+   }
+   .Webdesign
+   {
+    width: 85%;
+    background-color: #616161;
+   }
+
+   .container3
+   {
+    width: 100%;
+    background-color: #9e9e9e;
+   }
+   .Photoshop
+   {
+    width: 75%;
+    background-color: #616161;
+   }
+    .details
+    {
+        text-align: center;
+        color: aliceblue;
+        background-color: #0d0c0c;
+    }
+    .details1
+    {
+        padding: 30px;
+        text-align: left;
+        color: aliceblue;
+        background-color: #0d0c0c;
+    }
+
+    .image3{
+      
+        height: 500px;
+        display:flex;
+         background-color:grey;
+         padding: 10px;
+        
+     }
+   
+ 
+     .image1
+     {
+         margin-top: 100px;
+         color: white;
+         background-color:black;
+         width: 500px;
+         text-align: center;
+         margin-left: -300px;
+         height: 300px;
+       
+     }
+     .line
+     {
+        background-color: whitesmoke; 
+        height: 220px;
+       
+        color: #0d0c0c;
+        margin-top: 40px;
+      }
+      .bottom
+      {
+         height: 80px;
+         background-color:gainsboro;
+      }
+      .b1
+      {
+        margin-top: 25px;
+         color: aliceblue;
+         background-color: #0d0c0c;
+         width: 70px;
+         height: 30px;
+      }
+     
+ 
+      .image2
+     {
+         margin-top: 90px;
+         color: white;
+         background-color: orangered;
+         width: 500px;
+         text-align: center;
+         margin-left: 20px;
+         height: 300px;
+       
+     }
+     .line2
+     {
+        background-color: whitesmoke; 
+        height: 220px;
+       
+        color: #0d0c0c;
+        margin-top: 40px;
+      }
+      .bottom2
+      {
+         height: 100px;
+         background-color:gainsboro;
+      }
+      .b2
+      {
+        margin-top: 25px;
+         color: aliceblue;
+         background-color: #0d0c0c;
+         width: 70px;
+         height: 30px;
+      }
+ 
+      .a3
+      {
+ 
+          margin-top: 100px;
+          color: white;
+          background-color:black;
+          width: 500px;
+          text-align: center;
+          margin-left: 20px;
+          height: 300px;
+      }       
+      
+      .line3
+      {
+         background-color: whitesmoke; 
+         height: 220px;
+        
+         color: #0d0c0c;
+         margin-top: 40px;
+       }
+       .bottom3
+       {
+          height: 80px;
+          background-color:gainsboro;
+       }
+       .b3
+       {
+         margin-top: 25px;
+          color: aliceblue;
+          background-color: #0d0c0c;
+          width: 70px;
+          height: 30px;
+       }
+    .lastimg  img
+    {
+        height: 430px;
+    }
+}
+@media screen and (min-width:1200px)
+{
+    header .fa-bars
+    {
+        display:none;
+    }
+    header ul {
+        display: flex;
+       
+
+    }
+    header ul li{
+        text-decoration: none;
+        color: #1d1c1c;
+        margin: 30px;
+
+    }
+    .design1{
+        margin-left: 800px;
+    }
+    .number{
+        word-spacing: 10px;
+
+        padding-left: 300px;
+    }
+    .first4{
+        /* width: 2000px; */
+        padding-left: 50px;
+    }
+    .second4{
+        padding-left: 50px;
+    }
+    .cards div{
+    width: 23.5%;
+    }  
+    .lastimg  img
+    {
+        height: 750px;
+    }
+
+    .lastimg img{
+        opacity:0.5;
+        transition: 1s ease;
+        }
+        
+        .lastimg img:hover{
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+            transition: 1s ease;
+        }
+    .image3{
+      
+       height: 500px;
+       display:flex;
+        background-color:grey;
+        padding: 0px;
+       
+    }
+  
+
+    .image1
+    {
+        margin-top: 100px;
+        color: white;
+        background-color:black;
+        width: 300px;
+        text-align: center;
+        margin-left: -350px;
+        height: 300px;
+      
+    }
+    .line
+    {
+       background-color: whitesmoke; 
+       height: 220px;
+      
+       color: #0d0c0c;
+       margin-top: 40px;
+     }
+     .bottom
+     {
+        height: 80px;
+        background-color:gainsboro;
+     }
+     .b1
+     {
+       margin-top: 25px;
+        color: aliceblue;
+        background-color: #0d0c0c;
+        width: 70px;
+        height: 30px;
+     }
+    
+
+     .image2
+    {
+        margin-top: 90px;
+        color: white;
+        background-color: orangered;
+        width: 300px;
+        text-align: center;
+        margin-left: 140px;
+        height: 300px;
+      
+    }
+    .line2
+    {
+       background-color: whitesmoke; 
+       height: 220px;
+      
+       color: #0d0c0c;
+       margin-top: 40px;
+     }
+     .bottom2
+     {
+        height: 100px;
+        background-color:gainsboro;
+     }
+     .b2
+     {
+       margin-top: 25px;
+        color: aliceblue;
+        background-color: #0d0c0c;
+        width: 70px;
+        height: 30px;
+     }
+
+     .a3
+     {
+
+         margin-top: 100px;
+         color: white;
+         background-color:black;
+         width: 300px;
+         text-align: center;
+         margin-left: 150px;
+         height: 300px;
+     }       
+     
+     .line3
+     {
+        background-color: whitesmoke; 
+        height: 220px;
+       
+        color: #0d0c0c;
+        margin-top: 40px;
+      }
+      .bottom3
+      {
+         height: 80px;
+         background-color:gainsboro;
+      }
+      .b3
+      {
+        margin-top: 25px;
+         color: aliceblue;
+         background-color: #0d0c0c;
+         width: 70px;
+         height: 30px;
+      }
+
+
+}
